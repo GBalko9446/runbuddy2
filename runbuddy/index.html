@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="../runbuddy/assets/css/style.css" />
+<head>    
     <meta charset="UFT-8" />
         <title>Run-Buddy</title>
+</head>        
     <body>
-    <!-- navigation -->  
+     <!-- navigation -->  
         <header>
              <h1>
                 <a href="/">RUN BUDDY</a> 
@@ -28,29 +31,172 @@
                 </ul>
              </nav>
        </header>
-    <!--hero/jumbotron -->   
-       <section>
+ <!--hero section -->   
+ <section class="hero">
+           <div class="hero-form">
+               <h3>Get Started Today</h3>
+               <p>Fill out this form and one one of our trainers will schedule a consult</p>
+                <form>
+                    <label for="name"> Full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                    <li>
+                    <label for="email"> Email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                    <li>
+                    <label for="phone"> Telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"  class="form-input" />
+                    </li>
+                    <p>
+                    Have you worked with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                    <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                    <label for="checkbox" >
+                    I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                  <section class="hero-button">
+                    <button type="submit">
+                    Get running!
+                    </button>
+                </form>   
+            </div>
+ </section class="hero">
+     <!-- end hero -->
+     <!-- "what we do" -->
+       <div class ="flx-row">
+           <h2 class="section-title primary-border">               
+           </h2>
+       </div> 
+        <section id="what-we-do" class="intro">     
+         <h2 class="section-title primary-border">What We Do </h2>  
+        <div class="flex-row">
+         <p>
+             butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOX
+         </p>
+        </div>
+        </section>
+     <!-- what you do -->
+        <section id="what-you-do" class="steps">
+            <h2 class="section-title secondary-border">What You do</h2>
+            
+            <div>
+                <img src="../runbuddy/assets/images/step-1.svg" alt="" />
+            </div>
 
-       </section>
-    <!-- "what we do" -->
-        <section>     
-         <h2>What We Do </h2>
+            <div class="step">
+                <h3>Step 1.</h3>
+                <div class="step-info">
+                    <div class="step-img"></div>
+                <img scr="../runbuddy/assets/images/step-1.svg" alt="" />
+                    </div>
+                <div class="step-text"></div>    
+                 <h4>Out the Form Above</h4>
+                <p>You're already here, so why not?</p>
+                </div>
+                </div>
+            </div>
         </section>
-    <!-- what you do -->
-        <section>
-            <h2>What You do</h2>
+
+            <div class="step">
+                <img src="../runbuddy/assets/images/step-2.svg" alt="" />
+                <h3>Step 2: Consult with One of Our Trainers.</h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="../runbuddy/assets/images/step-3.svg" alt="" />
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-4.svg" alt="" />
+                <h3>Step 4: See Results</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            </div>
         </section>
-    <!-- meet the trainers -->
-        <section>
-            <h2>Meet the Trainers</h2>
+     <!-- meet the trainers -->
+        <section id="your-trainers">
+            <h2 class=section-title pimary-border>
+                Meet the Trainers
+            </h2>
+ <div class="trainers">
+            <article class="trainer">
+                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="trainer-bio text-left">
+                <h3 class="trainer-name">Arron Stephens</h3>
+                <h4 class="trainer-role">Speed / Strength</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+                </div>
+            </article>
+        <!--second trainer-->
+            <article class="trainer">
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+                <div class="trainer-bio text-right">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                    </p>
+                </div>
+                
+            </article>
+        <!--third trainer-->
+            <article class="trainer">
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                    </p>
+                </div>
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small weights" />
+            </article>
+ </div>
         </section>
-    <!-- reach out -->
-        <setion>
-            <h2>Reach Out</h2>
+     <!-- reach out -->
+        <setion id="reach-out" class="contact">
+            <h2 class="section-title secondary-border">Reach Out</h2>
+            <div class="contact-info">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11992.604306149233!2d-73.0995525!3d41.283816349999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1633305822724!5m2!1sen!2sus"  
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+             <div>
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or concerns before signing up?
+                    <br />
+                    Let us know and we'll be happy to talk to you!
+                </p>
+                <address>
+                    55 Main Street <br/>
+                    Some Town, Ca <br/>
+                    12345<br/>
+                    P: 555.RUN.BUDZ (555.786.2839)<br/>
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddyio</a>
+                </address>
+             </div>
+            </div>
         </setion>    
-    </body>
-    <!-- footer -->
-    <footer>
+     <!-- footer -->
+     <footer>
         <h2>Made with love by Run-Buddy</h2>
-    </footer>
+        <div>
+        <a>Read Our Privacy Policy</a><br />
+        &copy; 2019 Run Buddy, Inc.
+        </div>
+     </footer>
+    </body>
+
 </html>
